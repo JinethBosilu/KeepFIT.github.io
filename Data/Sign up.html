@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Keep FIT</title>
+    <link rel="stylesheet" href="CSSSignup.css">
+
+</head>
+<body>
+
+    <div class="content">
+            
+                <div class="form">
+                    <h2>Sign up</h2>
+                    <form id="signupForm" onsubmit="submitForm(event)">
+                        <input type="text" id="fullName" name="fullName" required placeholder="Enter Full Name" value="" required>
+                        <input type="email" name="email" placeholder="Enter Email" id="email" value="" required>
+                        <input type="password" placeholder="Enter Password" id="password" name="password" pattern=".{8,}" title="Password must be at least 8 characters" required>
+                        <input type="password" id="confirmPassword" name="confirmPassword" required placeholder="Confirm Password" value="" required>
+                        
+                        <button type="submit" class="btnn">Sign up</button>
+                    </form>
+                
+                    <p class="link">Already have an account<br>
+                    <a href="index.html">Login </a> here</a></p>
+                    <p class="liw">Sign up with</p>
+                
+                    <div class="icons">
+                        <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="https://twitter.com/i/flow/login"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="https://www.gmail.com/"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="https://www.skype.com/en/"><ion-icon name="logo-skype"></ion-icon></a>
+                    </div>
+                </div>
+                
+                <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+                <script src="script.js"></script>
+    </div>
+
+</body>
+</html>

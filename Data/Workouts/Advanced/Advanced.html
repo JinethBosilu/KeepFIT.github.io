@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Workout.css">
+        <title>Keep FIT</title>
+    </head>
+    <body>
+        <div class="main">
+            <div class="navbar">
+                
+                <div class="icon">
+                    <h1 class="logo">Workout Planner</h1>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SERVICE</a></li>
+                        <li><a href="Info.html">INFO</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timer"> <video id="myVideo" src="Timer.mp4" width="100%"></div>
+            <div class="exercise">
+                <div id="imageText" class="title">
+                    Bicycle Crunches
+                </div>
+                <div class="work">
+                    <img id="myImage" src="image1.gif" alt="Image" class="center">
+                </div>
+                
+                <div class="previous">
+                    <button class="slider-button" id="prevButton" onclick="prevImage()">❮</button>
+                </div>
+                <div class="start" id="center-button">
+                    <button id="playButton" class="play-pause-button" onclick="togglePlay()">Start</button>
+                </div>
+                <div class="next">
+                    <button class="slider-button" id="nextButton" onclick="nextImage()">❯</button>
+                </div>
+                
+            </div>       
+                
+        </div>
+        <script src="slide.js"></script>
+        <script src="All.js"></script>
+    </body>
+</html>

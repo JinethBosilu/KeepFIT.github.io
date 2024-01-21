@@ -1,0 +1,23 @@
+* body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-image: url(7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+.main {
+    max-width: 500px;
+    width: 100%;
+    background:local;
+    float: left;
+    margin-left: 1000px;
+    color: bisque;
+    padding: 10px;
+}
+.container{
+    float: left;
+    margin-left: 500px;
+    color: rgb(143, 143, 128);
+}

@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url(5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(41, 39, 39);
+}
+
+.icon{
+    float: left;
+    height: 50px;
+}
+
+.logo{
+    color: white ;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px;
+    margin-left:20px;
+}
+
+.menu{
+    width: 100%;
+    float: left;
+    height: 50px;
+    padding-top: 12px;
+    margin-left: 10px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.timer{
+    
+    float: left;
+    margin-left: 450px;
+    margin-top: 180px;
+    height: 275px;
+    width: 275px;
+}
+
+.exercise{
+    float: right;
+    margin-top: 10px;
+    margin-right: 100px;
+    height: 475px;
+    width: 550px;
+}
+
+.title{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+}
+
+#name{
+    margin-top: 5px;
+    height: 75px;
+}
+
+.work{
+    height: 300px;
+    margin-top: 5px;
+}
+
+.previous {
+    height: 85px;
+    width: 45px;
+    float: left;
+    margin-left: 100px;
+}
+
+.next {
+    height: 85px;
+    width: 45px;
+    float: right;
+    margin-right: 100px;
+}
+
+.start {
+    height: 85px;
+    width: 160px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    float: left;
+    padding-left: 50px;
+    padding-right: 0px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+  }
+
+.play-pause-button {
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    width: 160px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.play-pause-button:hover {
+    background-color: #2980b9;
+}
+
+/* Styling when the button is in the "pause" state */
+.playing {
+    background-color: #e74c3c;
+}
+
+.playing:hover {
+    background-color: #c0392b;
+}
+
+.slider-button {
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 12px;
+    padding: 17px;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.slider-button:hover {
+    background-color: #2980b9;
+}
